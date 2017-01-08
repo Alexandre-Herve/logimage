@@ -1,0 +1,6 @@
+transpile:
+  build: .
+  volumes:
+    - .:/app
+    - /app/node_modules
+  command: ["tsc", "-w"]
