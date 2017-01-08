@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Alexandre-Herve/logimage/issues"
   },
-  "homepage": "https://github.com/Alexandre-Herve/logimage#readme"
+  "homepage": "https://github.com/Alexandre-Herve/logimage#readme",
+  "dependencies": {
+    "ocrad.js": "^0.0.1"
+  }
 }
