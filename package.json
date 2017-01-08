@@ -1,0 +1,22 @@
+{
+  "name": "logimage",
+  "version": "1.0.0",
+  "description": "logimage solver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandre-Herve/logimage.git"
+  },
+  "keywords": [
+    "logimage"
+  ],
+  "author": "H&H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandre-Herve/logimage/issues"
+  },
+  "homepage": "https://github.com/Alexandre-Herve/logimage#readme"
+}
