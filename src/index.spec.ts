@@ -1,5 +1,7 @@
 import {expect} from 'chai'
 
 describe('dummy test', () => {
-  expect(1).to.eql(1)
+  it('works', () => {
+    expect(1).to.eql(1)
+  })
 })
