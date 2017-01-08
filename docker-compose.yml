@@ -4,3 +4,10 @@ transpile:
     - .:/app
     - /app/node_modules
   command: ["tsc", "-w"]
+
+mocha:
+  build: .
+  volumes:
+    - .:/app
+    - /app/node_modules
+  command: nodemon --watch dist -e js --delay 500ms --exec 'mocha --recursive --bail --colors' ./dist
